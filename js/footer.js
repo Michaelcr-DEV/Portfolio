@@ -8,7 +8,7 @@ footer.innerHTML = `
             <i class="bi bi-github fs-3"></i>
         </a>
 
-        <a href="https://linkedin.com/in/TU_USUARIO" target="_blank" class="text-dark">
+        <a href="https://www.linkedin.com/in/michaelcastrodev" target="_blank" class="text-dark">
             <i class="bi bi-linkedin fs-3"></i>
         </a>
 
