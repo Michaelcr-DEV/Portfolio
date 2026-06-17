@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="./styles/style.css" rel="stylesheet">
     <title>projects</title>
 </head>
@@ -16,17 +16,70 @@
     <nav>
         <div id="navBarContainer"></div>
     </nav>
-    <h1>Proyect</h1>
+    <p class="txtAbout text-center">Aquí podrás encontrar algunos proyectos que he realizado recientemente.</p>
+  <div class="containerProjects container">
+    <div class="row g-4">
 
-    <footer>
-        <div id="footerContainer"></div>
-    </footer>
+        <!-- CARD ATHLETIX -->
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="./assets/ATHLETIX.png" class="card-img-top" alt="ATHLETIX">
+                <div class="card-body">
+                    <h5 class="card-title">ATHLETIX</h5>
+                    <p class="card-text">
+                        Proyecto de E-COMMERCE realizado durante un hackathon.
+                    </p>
+                    <a href="https://github.com/draculesti/hackathonOne" class="btn btn-primary">
+                        Ir al repo
+                    </a>
+                </div>
+            </div>
+        </div>
 
-    <script src="./js/footer.js"></script>
-    <script src="./js/navbar.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+        <!-- CARD MIXTECATL -->
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="./assets/ATHLETIX.png" class="card-img-top" alt="MIXTECATL">
+                <div class="card-body">
+                    <h5 class="card-title">MIXTECATL</h5>
+                    <p class="card-text">
+                        Proyecto de E-COMMERCE realizado para un comercio de comida,
+                        desarrollado en colaboración con colegas de Generation México.
+                    </p>
+                    <a href="https://github.com/draculesti/ecommerceProject" class="btn btn-primary">
+                        Ir al repo
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD PORTAFOLIO -->
+        <div class="col-12 col-md-4">
+            <div class="card h-100">
+                <img src="./assets/ATHLETIX.png" class="card-img-top" alt="Portafolio">
+                <div class="card-body">
+                    <h5 class="card-title">Portafolio</h5>
+                    <p class="card-text">
+                        Proyecto realizado por mí para presentar mi persona y trabajo.
+                    </p>
+                    <a href="https://github.com/Michaelcr-DEV/Portfolio" class="btn btn-primary">
+                        Ir al repo
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+        <footer>
+            <div id="footerContainer"></div>
+        </footer>
+
+        <script src="./js/footer.js"></script>
+        <script src="./js/navbar.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
